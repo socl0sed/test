@@ -1,8 +1,9 @@
 #include <iostream>
-
-using namespace std;
+#include <string>
 
 int main() {
-cout << "Bad Hello World" << endl;
-return 0;
+	string name;
+	cin >> name;
+	cout << "Hello world from " << name << endl;
+	return 0;
 }
