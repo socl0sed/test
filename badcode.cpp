@@ -3,7 +3,7 @@
 
 int main() {
 	string name; 
-	std::cin >> name; //Request
-	std::cout << "Hello world from " << name << std::endl; //Answer
+	std::cin >> name; //Запрос
+	std::cout << "Hello world from " << name << std::endl; //Ответ
 	return 0;
 }
